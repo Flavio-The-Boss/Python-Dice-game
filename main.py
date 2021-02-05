@@ -225,7 +225,7 @@ def printscore():
         i = 0
         print("\n")
         print("-==L E A D E R B O A R D==-\n")
-        for i in range(len(scoreList)):
+        for i in range(5):
             t.sleep(0.4)
             print(scoreList[i].strip("\n"))
 
